@@ -4,13 +4,27 @@
 
 
 
-  <section class="bg-light text-center py-5">
-    <div class="container">
-      <h1 class="display-4">Welcome to Matrix Hub</h1>
-      <p class="lead">Explore our top courses and other courses from different top teachers in various industries to advance your career.</p>
-      <a href="#" class="btn btn-primary btn-lg">Get Started</a>
-    </div>
-  </section>
+    <!-- Header -->
+    <header id="header" class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-xl-5">
+                    <div class="text-container">
+                        <div class="section-title">Welcome to Matrix Hub</div>
+                        <h1 class="h1-large">Matrix Hub Offers Great Trading Services</h1>
+                        <p class="p-large">From carefully curated courses to assistive tools to improve in the financial market</p>
+                        <a class="btn-solid-lg" href="#services">Offered services</a>
+                    </div> <!-- end of text-container -->
+                </div> <!-- end of col -->
+                <div class="col-lg-6 col-xl-7">
+                    <div class="image-container">
+                        <img class="img-fluid" src="media/images/woman-doing-bitcoin-trading.svg" alt="alternative">
+                    </div> <!-- end of image-container -->
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </header> <!-- end of header -->
+    <!-- end of header -->
 
 
 
@@ -25,7 +39,7 @@
             <p class="card-text">Learn how to trade the financial market from beginners to advanced level. Get equipped with all you need to be
                 successful in the financial market.
             </p>
-            <a href="#" class="btn btn-primary">View Course</a>
+            <a href="#" class="btn-outline-reg">View Course</a>
           </div>
         </div>
       </div>
@@ -37,7 +51,7 @@
             <p class="card-text">Learn how to trade the crypto market. Analyze and trade futures, spot and explore other investment opportunities
                 in the crypto market. Go from beginner to pro.
             </p>
-            <a href="#" class="btn btn-primary">View Course</a>
+            <a href="#" class="btn-outline-reg">View Course</a>
           </div>
         </div>
       </div>
@@ -81,5 +95,13 @@
         </div> <!-- end of container -->
     </div> <!-- end of cards-2 -->
     <!-- end of pricing -->
+
+
+
+    <!-- Back To Top Button -->
+    <button onclick="topFunction()" id="myBtn">
+        <img src="images/up-arrow.png" alt="alternative">
+    </button>
+    <!-- end of back to top button -->
 
 {% endblock content%}
